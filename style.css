@@ -8,10 +8,29 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-align: center;
+}
+
+@media screen and (max-width: 1240px) {
+	h1 {
+		font-size: 2rem !important;
+		color: #eee;
+		margin: 8px;
+	}
+
+	.ethAmount {
+		color: #bad455;
+	}
+
+	h2 {
+		font-size: 1rem !important;
+		color: hsl(72, 43%, 29%);
+		margin: 8px;
+	}
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 4rem;
 	color: #eee;
 	margin: 8px;
 }
@@ -21,7 +40,7 @@ h1 {
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 3rem;
 	color: hsl(72, 43%, 29%);
 	margin: 8px;
 }
